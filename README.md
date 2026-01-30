@@ -1,5 +1,7 @@
 # Cowork History MCP
 
+<!-- mcp-name: io.github.egoughnour/cowork-history -->
+
 An MCP (Model Context Protocol) server for searching and browsing your Claude conversation history stored in `~/.claude/`. Works with both Claude Code and Cowork conversations.
 
 ## Features
