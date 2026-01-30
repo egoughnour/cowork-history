@@ -144,7 +144,7 @@ class TestResponseFormat:
         from src.cowork_history_server import ResponseFormat, format_results
 
         result = format_results([], ResponseFormat.MARKDOWN, "Test")
-        assert "No test found" in result.lower()
+        assert "no test found" in result.lower()
 
     def test_format_json(self):
         """Test JSON formatting."""
